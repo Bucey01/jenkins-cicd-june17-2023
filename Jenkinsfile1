@@ -10,7 +10,7 @@ pipeline{
         stage('checkoutfromsourcecode'){
             steps{
                 sh "echo 'today is june 17 bulding pipelines for welcomeapp'"
-                git 'https://github.com/Lion-Technology-Solutions/jenkins-cicd-june17-2023.git'
+                git 'https://github.com/Bucey01/jenkins-cicd-june17-2023.git'
             }
         }
 
